@@ -142,7 +142,7 @@ async function runTests() {
     if (!value || value.trim().length === 0) return 'Required.';
     const resolved = path.resolve(process.cwd(), value);
     const relative = path.relative(process.cwd(), resolved);
-    if (relative.startsWith('..') || path.isAbsolute(value)) {
+    if (relative.startsWith('..') || path.isAbsolute(value) || path.win32.isAbsolute(value) || path.posix.isAbsolute(value)) {
       return 'Path traversal detected.';
     }
     return true;
