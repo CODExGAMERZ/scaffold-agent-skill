@@ -43,7 +43,7 @@ async function makeCleanDir(suffix) {
 
 async function runTests() {
   console.log('╔══════════════════════════════════════════════════════════╗');
-  console.log('║  create-agent-skill — Comprehensive Stress Test Suite   ║');
+  console.log('║  scaffold-agent-skill — Comprehensive Stress Test Suite ║');
   console.log('╚══════════════════════════════════════════════════════════╝\n');
 
   // ═══════════════════════════════════════════════════════════════

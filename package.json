@@ -1,6 +1,6 @@
 {
   "name": "scaffold-agent-skill",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Interactively scaffold an AI agent skill or plugin (Claude Code plugin, OpenAI Custom GPT Action, OpenClaw, or Google ADK/Gemini) from a single spec.",
   "type": "module",
   "license": "MIT",
@@ -35,9 +35,13 @@
     "cli",
     "generator"
   ],
+  "homepage": "https://github.com/CODExGAMERZ/scaffold-agent-skill#readme",
+  "bugs": {
+    "url": "https://github.com/CODExGAMERZ/scaffold-agent-skill/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_GITHUB_USERNAME/create-agent-skill.git"
+    "url": "git+https://github.com/CODExGAMERZ/scaffold-agent-skill.git"
   },
   "dependencies": {
     "js-yaml": "^4.1.0",

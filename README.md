@@ -44,8 +44,8 @@ You will be prompted to:
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/CODExGAMERZ/create-agent-skill.git
-cd create-agent-skill
+git clone https://github.com/CODExGAMERZ/scaffold-agent-skill.git
+cd scaffold-agent-skill
 npm install
 ```
 
