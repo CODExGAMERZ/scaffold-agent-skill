@@ -1,4 +1,4 @@
-# create-agent-skill
+# scaffold-agent-skill
 
 Interactively scaffold agent skills and plugins from a single specification. Target multiple developer and agent platforms simultaneously with a clean, validated scaffolding directory.
 
@@ -27,7 +27,7 @@ Supported platforms include:
 You can run the tool interactively without installing it:
 
 ```bash
-npx create-agent-skill
+npx scaffold-agent-skill
 ```
 
 You will be prompted to:
@@ -44,7 +44,7 @@ You will be prompted to:
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/Aryan/create-agent-skill.git
+git clone https://github.com/CODExGAMERZ/create-agent-skill.git
 cd create-agent-skill
 npm install
 ```
@@ -59,7 +59,7 @@ Or link it globally to run it from anywhere on your machine:
 
 ```bash
 npm link
-create-agent-skill
+scaffold-agent-skill
 ```
 
 ## Generated Outputs and Usage
