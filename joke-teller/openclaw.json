@@ -1,0 +1,19 @@
+{
+  "agents": {
+    "joke-teller": {
+      "model": {
+        "primary": "anthropic/claude-3-5-sonnet",
+        "fallback": "openai/gpt-4o"
+      },
+      "workspace": "./workspace",
+      "tools": [
+        "file",
+        "shell",
+        "browser"
+      ],
+      "skills": [
+        "joke-teller"
+      ]
+    }
+  }
+}

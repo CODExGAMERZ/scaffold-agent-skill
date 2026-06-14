@@ -1,0 +1,29 @@
+openapi: 3.1.0
+info:
+  title: Joke Teller
+  description: Tells funny programmer jokes
+  version: 0.1.0
+servers:
+  - url: https://YOUR-DEPLOYED-URL.example.com
+paths:
+  /joke-teller:
+    get:
+      operationId: jokeTeller
+      summary: Tells funny programmer jokes
+      parameters:
+        - name: input
+          in: query
+          required: true
+          schema:
+            type: string
+          description: Free-form input for "Joke Teller"
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  result:
+                    type: string
