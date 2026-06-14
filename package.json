@@ -1,12 +1,12 @@
 {
-  "name": "create-agent-skill",
+  "name": "scaffold-agent-skill",
   "version": "0.1.0",
   "description": "Interactively scaffold an AI agent skill or plugin (Claude Code plugin, OpenAI Custom GPT Action, OpenClaw, or Google ADK/Gemini) from a single spec.",
   "type": "module",
   "license": "MIT",
   "author": "",
   "bin": {
-    "create-agent-skill": "./bin/cli.js"
+    "scaffold-agent-skill": "bin/cli.js"
   },
   "files": [
     "bin",
